@@ -178,10 +178,11 @@ height: 40px;
 .cont{
     padding: 5px;
     height: 40px;
-    width: 100px;
+    width: 150px;
     background-color: green;
     border-radius: 5px;
     color: white;
     float: right;
     text-align: center;
+    font-size: 18px;
 }
