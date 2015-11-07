@@ -1,0 +1,1311 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Flex Office</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                 FLEX OFFICE
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right scroll-me">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#home">Search Spaces</a></li>
+                    <li><a href="#services">List your space</a></li>
+                    <li><a href="#contact">Account</a></li>
+                </ul>
+            </div>
+
+        </div>
+ </div>
+<div id='home'>
+    <section class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>
+                        <a onclick="history.go(-1);" class="btn btn-default">Go Back</a>
+                        Property Form
+                        
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <form action="/post-property" class="form-horizontal" method="post" data-validate="parsley" enctype="multipart/form-data">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Office Details
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-12">
+                                
+
+<div class="form-group ">
+    
+<label class='lab'>Name</label><br/>
+<input class='inp' type='text' placeholder='Enter Venue Name' name='name'></input><br/><br/>
+<label class='lab'>Description</label><br/>
+<textarea name='description' rows='5'cols='100' placeholder='Enter Venue Description'> </textarea>
+    <span class="help-block"></span>
+</div>
+                                </div>
+                            </div>
+                            <br/>
+                        </div>
+
+ <div class="panel panel-default">
+                            <div class=" panel-heading">Property Location</div>
+                            <div class="panel-body">
+                                <div class="col-md-4">
+                                    <div class="form-group ">
+                                        <label class="control-label">State</label>
+                                        <select name="address.state" class="form-control">
+                                            <option value="">Choose State</option>
+                                            
+                                                <option value="1" >Lagos</option>
+                                            
+                                        </select>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Axis</label>
+                                        <select name="axis" id="axis_select" class="form-control">
+                                            <option value="">Choose Axis</option>
+                                            
+                                                <option value="1" >Ikeja and Surrounds</option>
+                                            
+                                                <option value="2" >Surulere and Surrounds</option>
+                                            
+                                                <option value="3" >Ojota and Surrounds</option>
+                                            
+                                                <option value="4" >Shomolu and Surrounds</option>
+                                            
+                                                <option value="5" >Ojodu and Surrounds</option>
+                                            
+                                                <option value="6" >Oshodi-Isolo and Surrounds</option>
+                                            
+                                                <option value="7" >Ketu and Surrounds</option>
+                                            
+                                                <option value="8" >Yaba and Surrounds</option>
+                                            
+                                                <option value="9" >Ikoyi and Surrounds</option>
+                                            
+                                                <option value="10" >Lagos Island and Surrounds</option>
+                                            
+                                                <option value="11" >Victoria Island  and surrounds</option>
+                                            
+                                                <option value="12" >Lekki and Surrounds</option>
+                                            
+                                                <option value="13" >Ajah and Surrounds</option>
+                                            
+                                                <option value="14" >Apapa and Surrounds</option>
+                                            
+                                                <option value="15" >Agege and Surrounds</option>
+                                            
+                                                <option value="16" >Isolo and Surrounds</option>
+                                            
+                                                <option value="17" >Amuwo Odofin and Surrounds</option>
+                                            
+                                                <option value="18" >Ogba and Surrounds</option>
+                                            
+                                                <option value="28" >Ikorodu road and surrounds</option>
+                                            
+                                                <option value="29" >Ibeju Lekki</option>
+                                            
+                                                <option value="30" >Ojo and Surrounds</option>
+                                            
+                                                <option value="31" >Iju and Surrounds</option>
+                                            
+                                                <option value="32" >Ikotun and Surrounds</option>
+                                            
+                                                <option value="33" >Igando and Surrounds</option>
+                                            
+                                                <option value="34" >Egbeda and Surrounds</option>
+                                            
+                                                <option value="35" >Idimu and Surrounds</option>
+                                            
+                                                <option value="36" >Alagbado and Surrounds</option>
+                                            
+                                                <option value="37" >Ipaja and Surrounds</option>
+                                            
+                                                <option value="39" >Abule Egba and Surrounds</option>
+                                            
+                                                <option value="40" >Ogudu and Surrounds</option>
+                                            
+                                                <option value="41" >Ikorodu and Surrounds</option>
+                                            
+                                                <option value="42" >Mushin and Surrounds</option>
+                                            
+                                                <option value="43" >Okota and Surrounds</option>
+                                            
+                                                <option value="44" >Gbagada and Surrounds</option>
+                                            
+                                                <option value="45" >Iju</option>
+                                            
+                                                <option value="46" >Okota</option>
+                                            
+                                                <option value="47" >Maryland and surrounds</option>
+                                            
+                                                <option value="48" >Sangoteddo and surrounds</option>
+                                            
+                                                <option value="49" >Alimosho and surrounds</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group ">
+                                        <label class="control-label">Area</label>
+                                        <select name="address.area" id="area_select" class="form-control">
+                                            <option value="">Choose Area</option>
+                                        </select>
+
+                                        <select id="area_options" class="hidden hide">
+                                        
+                                            
+                                                <option class="option_1 select_option" value="8" >Maryland</option>
+                                            
+                                                <option class="option_1 select_option" value="82" >Oba Akran</option>
+                                            
+                                                <option class="option_1 select_option" value="1" >Ikeja</option>
+                                            
+                                                <option class="option_1 select_option" value="25" >Omole</option>
+                                            
+                                                <option class="option_1 select_option" value="15" >Oregun</option>
+                                            
+                                                <option class="option_1 select_option" value="80" >Bank Anthony Way</option>
+                                            
+                                                <option class="option_1 select_option" value="60" >Agidingbi</option>
+                                            
+                                                <option class="option_1 select_option" value="20" >Allen Avenue</option>
+                                            
+                                                <option class="option_1 select_option" value="12" >Alausa</option>
+                                            
+                                                <option class="option_1 select_option" value="301" >Alausa Ikeja</option>
+                                            
+                                                <option class="option_1 select_option" value="303" >Awolowo way</option>
+                                            
+                                                <option class="option_1 select_option" value="112" >Mongoro</option>
+                                            
+                                                <option class="option_1 select_option" value="23" >Adeniyi Jones</option>
+                                            
+                                                <option class="option_1 select_option" value="84" >Balogun</option>
+                                            
+                                                <option class="option_1 select_option" value="22" >Opebi</option>
+                                            
+                                                <option class="option_1 select_option" value="302" >Ikeja G.R.A</option>
+                                            
+                                                <option class="option_1 select_option" value="17" >Obafemi Awolowo Way</option>
+                                            
+                                                <option class="option_1 select_option" value="11" >Ikeja GRA</option>
+                                            
+                                        
+                                            
+                                                <option class="option_2 select_option" value="158" >Gbaja</option>
+                                            
+                                                <option class="option_2 select_option" value="329" >Ojuelegba</option>
+                                            
+                                                <option class="option_2 select_option" value="328" >Iponri</option>
+                                            
+                                                <option class="option_2 select_option" value="327" >idi- Araba</option>
+                                            
+                                                <option class="option_2 select_option" value="157" >Ikate</option>
+                                            
+                                                <option class="option_2 select_option" value="326" >Masha</option>
+                                            
+                                                <option class="option_2 select_option" value="268" >Kilo-Marsha</option>
+                                            
+                                                <option class="option_2 select_option" value="254" >Itire</option>
+                                            
+                                                <option class="option_2 select_option" value="270" >Orile-Iganmu</option>
+                                            
+                                                <option class="option_2 select_option" value="267" >Iganmu/Gbaja</option>
+                                            
+                                                <option class="option_2 select_option" value="330" >Staduim Gbaja</option>
+                                            
+                                                <option class="option_2 select_option" value="6" >Surulere</option>
+                                            
+                                                <option class="option_2 select_option" value="255" >Lawanson</option>
+                                            
+                                                <option class="option_2 select_option" value="152" >Eric moore</option>
+                                            
+                                                <option class="option_2 select_option" value="269" >Central surulere</option>
+                                            
+                                                <option class="option_2 select_option" value="265" >Alaka/Iponri</option>
+                                            
+                                                <option class="option_2 select_option" value="151" >Adelabu</option>
+                                            
+                                                <option class="option_2 select_option" value="257" >Bode Thomas</option>
+                                            
+                                                <option class="option_2 select_option" value="156" >Alaka Estate</option>
+                                            
+                                                <option class="option_2 select_option" value="166" >Mushin</option>
+                                            
+                                                <option class="option_2 select_option" value="61" >Aguda</option>
+                                            
+                                                <option class="option_2 select_option" value="260" >Ogunlana</option>
+                                            
+                                                <option class="option_2 select_option" value="331" >Ogunsanya</option>
+                                            
+                                                <option class="option_2 select_option" value="256" >Ijesha</option>
+                                            
+                                        
+                                            
+                                                <option class="option_3 select_option" value="5" >Ojota</option>
+                                            
+                                                <option class="option_3 select_option" value="338" >Barracks Estate</option>
+                                            
+                                                <option class="option_3 select_option" value="89" >Ogudu GRA</option>
+                                            
+                                                <option class="option_3 select_option" value="92" >Ogudu Road</option>
+                                            
+                                                <option class="option_3 select_option" value="339" >Ogudu-Orike</option>
+                                            
+                                                <option class="option_3 select_option" value="91" >Ori-Oke</option>
+                                            
+                                                <option class="option_3 select_option" value="13" >Ogudu</option>
+                                            
+                                                <option class="option_3 select_option" value="9" >Anthony Village</option>
+                                            
+                                        
+                                            
+                                                <option class="option_4 select_option" value="163" >Bariga</option>
+                                            
+                                                <option class="option_4 select_option" value="242" >Onipanu</option>
+                                            
+                                                <option class="option_4 select_option" value="16" >Gbagada</option>
+                                            
+                                                <option class="option_4 select_option" value="3" >Shomolu</option>
+                                            
+                                                <option class="option_4 select_option" value="247" >Pedro</option>
+                                            
+                                        
+                                            
+                                                <option class="option_5 select_option" value="343" >Yakoyo/Alagbole</option>
+                                            
+                                                <option class="option_5 select_option" value="14" >Omole phase 1</option>
+                                            
+                                                <option class="option_5 select_option" value="98" >Berger</option>
+                                            
+                                                <option class="option_5 select_option" value="340" >Ojodu Berger</option>
+                                            
+                                                <option class="option_5 select_option" value="32" >Omole phase 2</option>
+                                            
+                                                <option class="option_5 select_option" value="96" >Ojodu Estate</option>
+                                            
+                                                <option class="option_5 select_option" value="26" >Magodo Isheri</option>
+                                            
+                                                <option class="option_5 select_option" value="131" >Ogba estate</option>
+                                            
+                                                <option class="option_5 select_option" value="28" >Ojodu</option>
+                                            
+                                                <option class="option_5 select_option" value="341" >OGBA GRA</option>
+                                            
+                                                <option class="option_5 select_option" value="27" >Ogba</option>
+                                            
+                                        
+                                            
+                                                <option class="option_6 select_option" value="35" >Onike</option>
+                                            
+                                                <option class="option_6 select_option" value="336" >Palmgroove Estate</option>
+                                            
+                                                <option class="option_6 select_option" value="33" >Ilupeju</option>
+                                            
+                                                <option class="option_6 select_option" value="166" >Mushin</option>
+                                            
+                                                <option class="option_6 select_option" value="133" >Ladipo</option>
+                                            
+                                                <option class="option_6 select_option" value="143" >Ilasa</option>
+                                            
+                                                <option class="option_6 select_option" value="138" >Main Oshodi</option>
+                                            
+                                                <option class="option_6 select_option" value="150" >Jibowu</option>
+                                            
+                                                <option class="option_6 select_option" value="134" >Shogunle</option>
+                                            
+                                                <option class="option_6 select_option" value="253" >Abule-Ijesha</option>
+                                            
+                                                <option class="option_6 select_option" value="141" >Ago palace</option>
+                                            
+                                                <option class="option_6 select_option" value="198" >Ebute</option>
+                                            
+                                                <option class="option_6 select_option" value="290" >Airport Road</option>
+                                            
+                                                <option class="option_6 select_option" value="29" >Oshodi</option>
+                                            
+                                                <option class="option_6 select_option" value="135" >Mafoluku</option>
+                                            
+                                                <option class="option_6 select_option" value="58" >Okota</option>
+                                            
+                                                <option class="option_6 select_option" value="146" >Tejuosho</option>
+                                            
+                                                <option class="option_6 select_option" value="323" >Igbobi</option>
+                                            
+                                                <option class="option_6 select_option" value="172" >Ikotun</option>
+                                            
+                                                <option class="option_6 select_option" value="78" >Isolo</option>
+                                            
+                                                <option class="option_6 select_option" value="248" >Sabo</option>
+                                            
+                                                <option class="option_6 select_option" value="337" >Bye pass Ilupeju</option>
+                                            
+                                                <option class="option_6 select_option" value="142" >Cana estate</option>
+                                            
+                                                <option class="option_6 select_option" value="245" >Fadeyi</option>
+                                            
+                                                <option class="option_6 select_option" value="30" >Ajao Estate</option>
+                                            
+                                                <option class="option_6 select_option" value="132" >Arowojobe</option>
+                                            
+                                                <option class="option_6 select_option" value="250" >Adekunle</option>
+                                            
+                                                <option class="option_6 select_option" value="197" >Akowonjo</option>
+                                            
+                                                <option class="option_6 select_option" value="252" >Abule-Oja</option>
+                                            
+                                                <option class="option_6 select_option" value="137" >Afariogun Charity</option>
+                                            
+                                                <option class="option_6 select_option" value="139" >Ire Akari</option>
+                                            
+                                                <option class="option_6 select_option" value="335" >Ojuwoye</option>
+                                            
+                                        
+                                            
+                                                <option class="option_7 select_option" value="119" >Alapere</option>
+                                            
+                                                <option class="option_7 select_option" value="7" >Magodo</option>
+                                            
+                                                <option class="option_7 select_option" value="34" >Shangisha</option>
+                                            
+                                                <option class="option_7 select_option" value="218" >Agboyi- Ketu</option>
+                                            
+                                                <option class="option_7 select_option" value="122" >Kosofe</option>
+                                            
+                                                <option class="option_7 select_option" value="263" >Ikosi-Ketu</option>
+                                            
+                                                <option class="option_7 select_option" value="4" >Ketu</option>
+                                            
+                                                <option class="option_7 select_option" value="264" >Magodo-GRA</option>
+                                            
+                                                <option class="option_7 select_option" value="262" >Ketu-Alapere</option>
+                                            
+                                                <option class="option_7 select_option" value="261" >Magodo-Shangisha</option>
+                                            
+                                                <option class="option_7 select_option" value="123" >Magodo GRA</option>
+                                            
+                                        
+                                            
+                                                <option class="option_8 select_option" value="251" >Akoka</option>
+                                            
+                                                <option class="option_8 select_option" value="150" >Jibowu</option>
+                                            
+                                                <option class="option_8 select_option" value="248" >Sabo</option>
+                                            
+                                                <option class="option_8 select_option" value="249" >Alagomeji</option>
+                                            
+                                                <option class="option_8 select_option" value="24" >Ebute Metta</option>
+                                            
+                                                <option class="option_8 select_option" value="146" >Tejuosho</option>
+                                            
+                                                <option class="option_8 select_option" value="250" >Adekunle</option>
+                                            
+                                                <option class="option_8 select_option" value="147" >Makoko</option>
+                                            
+                                                <option class="option_8 select_option" value="2" >Yaba</option>
+                                            
+                                                <option class="option_8 select_option" value="36" >Iwaya</option>
+                                            
+                                                <option class="option_8 select_option" value="35" >Onike</option>
+                                            
+                                        
+                                            
+                                                <option class="option_9 select_option" value="348" >FALOMO</option>
+                                            
+                                                <option class="option_9 select_option" value="344" >PARKVIEW ESTATE</option>
+                                            
+                                                <option class="option_9 select_option" value="345" >OSBOURNE</option>
+                                            
+                                                <option class="option_9 select_option" value="38" >Ikoyi</option>
+                                            
+                                                <option class="option_9 select_option" value="347" >DOLPHIN ESTATE</option>
+                                            
+                                                <option class="option_9 select_option" value="349" >OLD IKOYI</option>
+                                            
+                                                <option class="option_9 select_option" value="346" >BOURDILLON</option>
+                                            
+                                                <option class="option_9 select_option" value="342" >BANANA ISLAND</option>
+                                            
+                                        
+                                            
+                                                <option class="option_10 select_option" value="55" >Lagos Island</option>
+                                            
+                                        
+                                            
+                                                <option class="option_11 select_option" value="355" >ONIRU</option>
+                                            
+                                                <option class="option_11 select_option" value="49" >Victoria island</option>
+                                            
+                                                <option class="option_11 select_option" value="356" >1004</option>
+                                            
+                                        
+                                            
+                                                <option class="option_12 select_option" value="280" >Igbo-efon</option>
+                                            
+                                                <option class="option_12 select_option" value="352" >IKOTA</option>
+                                            
+                                                <option class="option_12 select_option" value="281" >Osapa london</option>
+                                            
+                                                <option class="option_12 select_option" value="284" >Tipper gararge</option>
+                                            
+                                                <option class="option_12 select_option" value="285" >Total</option>
+                                            
+                                                <option class="option_12 select_option" value="157" >Ikate</option>
+                                            
+                                                <option class="option_12 select_option" value="350" >LEKKI PHASE 1</option>
+                                            
+                                                <option class="option_12 select_option" value="289" >Ilasan</option>
+                                            
+                                                <option class="option_12 select_option" value="276" >2nd roundabout</option>
+                                            
+                                                <option class="option_12 select_option" value="275" >phase 2</option>
+                                            
+                                                <option class="option_12 select_option" value="52" >Lekki</option>
+                                            
+                                                <option class="option_12 select_option" value="278" >7th roundabout</option>
+                                            
+                                                <option class="option_12 select_option" value="282" >chevron</option>
+                                            
+                                                <option class="option_12 select_option" value="279" >Agungi</option>
+                                            
+                                                <option class="option_12 select_option" value="53" >Ilaje</option>
+                                            
+                                        
+                                            
+                                                <option class="option_13 select_option" value="173" >ibeju lekki</option>
+                                            
+                                                <option class="option_13 select_option" value="358" >ABRAHAM ADESANYA</option>
+                                            
+                                                <option class="option_13 select_option" value="271" >Langbasa</option>
+                                            
+                                                <option class="option_13 select_option" value="255" >Lawanson</option>
+                                            
+                                                <option class="option_13 select_option" value="182" >Badore</option>
+                                            
+                                                <option class="option_13 select_option" value="53" >Ilaje</option>
+                                            
+                                                <option class="option_13 select_option" value="54" >Ajah</option>
+                                            
+                                        
+                                            
+                                                <option class="option_14 select_option" value="297" >Apapa G.R.A</option>
+                                            
+                                                <option class="option_14 select_option" value="300" >Olodi Apapa</option>
+                                            
+                                                <option class="option_14 select_option" value="299" >Liverpoool</option>
+                                            
+                                                <option class="option_14 select_option" value="298" >Kirikiri 1</option>
+                                            
+                                                <option class="option_14 select_option" value="56" >Apapa</option>
+                                            
+                                        
+                                            
+                                                <option class="option_15 select_option" value="103" >Oko oba</option>
+                                            
+                                                <option class="option_15 select_option" value="62" >Alagbado</option>
+                                            
+                                                <option class="option_15 select_option" value="100" >orile agege</option>
+                                            
+                                                <option class="option_15 select_option" value="25" >Omole</option>
+                                            
+                                                <option class="option_15 select_option" value="106" >Oko oba road</option>
+                                            
+                                                <option class="option_15 select_option" value="74" >Opeilu</option>
+                                            
+                                                <option class="option_15 select_option" value="114" >Dopemu</option>
+                                            
+                                                <option class="option_15 select_option" value="69" >Isaja-Abosule</option>
+                                            
+                                                <option class="option_15 select_option" value="111" >Cement</option>
+                                            
+                                                <option class="option_15 select_option" value="109" >LSDPC medium housing estate</option>
+                                            
+                                                <option class="option_15 select_option" value="101" >Agbotikuyo</option>
+                                            
+                                                <option class="option_15 select_option" value="72" >Oluwo</option>
+                                            
+                                                <option class="option_15 select_option" value="70" >Magbon</option>
+                                            
+                                                <option class="option_15 select_option" value="107" >Marplewood estate</option>
+                                            
+                                                <option class="option_15 select_option" value="59" >Agege</option>
+                                            
+                                                <option class="option_15 select_option" value="104" >Capitol</option>
+                                            
+                                                <option class="option_15 select_option" value="71" >Oke-Aro</option>
+                                            
+                                                <option class="option_15 select_option" value="57" >Iju road</option>
+                                            
+                                                <option class="option_15 select_option" value="64" >Ifako</option>
+                                            
+                                                <option class="option_15 select_option" value="67" >Ijaiye</option>
+                                            
+                                                <option class="option_15 select_option" value="113" >Oniwaya</option>
+                                            
+                                                <option class="option_15 select_option" value="66" >Iju</option>
+                                            
+                                                <option class="option_15 select_option" value="108" >LSDPC estate</option>
+                                            
+                                                <option class="option_15 select_option" value="110" >Fagba</option>
+                                            
+                                                <option class="option_15 select_option" value="65" >Hausa</option>
+                                            
+                                                <option class="option_15 select_option" value="102" >Pen cinema</option>
+                                            
+                                                <option class="option_15 select_option" value="105" >Old agege motor road</option>
+                                            
+                                                <option class="option_15 select_option" value="75" >Meran</option>
+                                            
+                                                <option class="option_15 select_option" value="68" >Iju Junction</option>
+                                            
+                                                <option class="option_15 select_option" value="60" >Agidingbi</option>
+                                            
+                                                <option class="option_15 select_option" value="171" >Iyana Ipaja</option>
+                                            
+                                                <option class="option_15 select_option" value="61" >Aguda</option>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <option class="option_17 select_option" value="296" >Apple junction</option>
+                                            
+                                                <option class="option_17 select_option" value="76" >Festac</option>
+                                            
+                                                <option class="option_17 select_option" value="169" >Satellite Town</option>
+                                            
+                                                <option class="option_17 select_option" value="77" >Amuwo Odofin</option>
+                                            
+                                                <option class="option_17 select_option" value="295" >Green estate</option>
+                                            
+                                                <option class="option_17 select_option" value="361" >Mile 2</option>
+                                            
+                                                <option class="option_17 select_option" value="170" >Agboju</option>
+                                            
+                                        
+                                            
+                                                <option class="option_18 select_option" value="128" >Yaya abatan</option>
+                                            
+                                                <option class="option_18 select_option" value="27" >Ogba</option>
+                                            
+                                                <option class="option_18 select_option" value="61" >Aguda</option>
+                                            
+                                                <option class="option_18 select_option" value="129" >Oke ira</option>
+                                            
+                                                <option class="option_18 select_option" value="131" >Ogba estate</option>
+                                            
+                                                <option class="option_18 select_option" value="127" >College road</option>
+                                            
+                                                <option class="option_18 select_option" value="130" >Dide-Olu courtyard</option>
+                                            
+                                        
+                                            
+                                                <option class="option_28 select_option" value="163" >Bariga</option>
+                                            
+                                                <option class="option_28 select_option" value="198" >Ebute</option>
+                                            
+                                                <option class="option_28 select_option" value="202" >Ijede</option>
+                                            
+                                                <option class="option_28 select_option" value="164" >Somolu</option>
+                                            
+                                                <option class="option_28 select_option" value="162" >Igbobi road</option>
+                                            
+                                                <option class="option_28 select_option" value="159" >Town planning way</option>
+                                            
+                                                <option class="option_28 select_option" value="161" >pedro road</option>
+                                            
+                                                <option class="option_28 select_option" value="9" >Anthony Village</option>
+                                            
+                                                <option class="option_28 select_option" value="204" >Igbogbo</option>
+                                            
+                                                <option class="option_28 select_option" value="165" >Mende</option>
+                                            
+                                                <option class="option_28 select_option" value="10" >Palm Groove</option>
+                                            
+                                                <option class="option_28 select_option" value="33" >Ilupeju</option>
+                                            
+                                                <option class="option_28 select_option" value="168" >Ikorodu</option>
+                                            
+                                                <option class="option_28 select_option" value="160" >Obanikoro</option>
+                                            
+                                        
+                                            
+                                                <option class="option_29 select_option" value="54" >Ajah</option>
+                                            
+                                                <option class="option_29 select_option" value="272" >Eleko</option>
+                                            
+                                        
+                                            
+                                                <option class="option_30 select_option" value="319" >Ajangbadi</option>
+                                            
+                                                <option class="option_30 select_option" value="189" >New Site</option>
+                                            
+                                                <option class="option_30 select_option" value="191" >Igbolerin</option>
+                                            
+                                                <option class="option_30 select_option" value="190" >Obadore</option>
+                                            
+                                                <option class="option_30 select_option" value="320" >Abule Ado</option>
+                                            
+                                                <option class="option_30 select_option" value="216" >Egan</option>
+                                            
+                                                <option class="option_30 select_option" value="318" >Okokomaiko</option>
+                                            
+                                                <option class="option_30 select_option" value="187" >Iba</option>
+                                            
+                                                <option class="option_30 select_option" value="188" >Igando</option>
+                                            
+                                        
+                                            
+                                                <option class="option_31 select_option" value="66" >Iju</option>
+                                            
+                                        
+                                            
+                                                <option class="option_32 select_option" value="172" >Ikotun</option>
+                                            
+                                                <option class="option_32 select_option" value="215" >Governors road</option>
+                                            
+                                                <option class="option_32 select_option" value="214" >Abaranje</option>
+                                            
+                                                <option class="option_32 select_option" value="211" >Egbe</option>
+                                            
+                                                <option class="option_32 select_option" value="213" >Ijegun</option>
+                                            
+                                                <option class="option_32 select_option" value="188" >Igando</option>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <option class="option_36 select_option" value="191" >Igbolerin</option>
+                                            
+                                        
+                                            
+                                                <option class="option_37 select_option" value="195" >Iyana-Ipaja</option>
+                                            
+                                                <option class="option_37 select_option" value="193" >Gemade Estate</option>
+                                            
+                                                <option class="option_37 select_option" value="197" >Akowonjo</option>
+                                            
+                                                <option class="option_37 select_option" value="192" >Gowon Estate</option>
+                                            
+                                                <option class="option_37 select_option" value="291" >Baruwa</option>
+                                            
+                                                <option class="option_37 select_option" value="240" >Ipaja</option>
+                                            
+                                                <option class="option_37 select_option" value="196" >Egbeda</option>
+                                            
+                                                <option class="option_37 select_option" value="114" >Dopemu</option>
+                                            
+                                                <option class="option_37 select_option" value="194" >Ayobo</option>
+                                            
+                                        
+                                            
+                                                <option class="option_39 select_option" value="293" >Iju-Ishaga</option>
+                                            
+                                                <option class="option_39 select_option" value="100" >orile agege</option>
+                                            
+                                                <option class="option_39 select_option" value="66" >Iju</option>
+                                            
+                                                <option class="option_39 select_option" value="292" >OKO-Oba</option>
+                                            
+                                                <option class="option_39 select_option" value="219" >Ile-Ipo</option>
+                                            
+                                                <option class="option_39 select_option" value="110" >Fagba</option>
+                                            
+                                                <option class="option_39 select_option" value="184" >Abule Egba</option>
+                                            
+                                                <option class="option_39 select_option" value="59" >Agege</option>
+                                            
+                                                <option class="option_39 select_option" value="226" >Agbele</option>
+                                            
+                                                <option class="option_39 select_option" value="237" >U-turn</option>
+                                            
+                                                <option class="option_39 select_option" value="67" >Ijaiye</option>
+                                            
+                                                <option class="option_39 select_option" value="225" >Oja Oba</option>
+                                            
+                                                <option class="option_39 select_option" value="75" >Meran</option>
+                                            
+                                                <option class="option_39 select_option" value="106" >Oko oba road</option>
+                                            
+                                        
+                                            
+                                                <option class="option_40 select_option" value="5" >Ojota</option>
+                                            
+                                                <option class="option_40 select_option" value="13" >Ogudu</option>
+                                            
+                                                <option class="option_40 select_option" value="119" >Alapere</option>
+                                            
+                                                <option class="option_40 select_option" value="218" >Agboyi- Ketu</option>
+                                            
+                                                <option class="option_40 select_option" value="217" >Ifako- Oworosonki</option>
+                                            
+                                        
+                                            
+                                                <option class="option_41 select_option" value="310" >Ibeshe</option>
+                                            
+                                                <option class="option_41 select_option" value="308" >Gberigbe</option>
+                                            
+                                                <option class="option_41 select_option" value="204" >Igbogbo</option>
+                                            
+                                                <option class="option_41 select_option" value="200" >Oke - Otaona</option>
+                                            
+                                                <option class="option_41 select_option" value="201" >Owode Ibeshe</option>
+                                            
+                                                <option class="option_41 select_option" value="18" >Ikorodu Road</option>
+                                            
+                                                <option class="option_41 select_option" value="305" >Itamaga</option>
+                                            
+                                                <option class="option_41 select_option" value="312" >Solebo</option>
+                                            
+                                                <option class="option_41 select_option" value="31" >Ikosi</option>
+                                            
+                                                <option class="option_41 select_option" value="248" >Sabo</option>
+                                            
+                                                <option class="option_41 select_option" value="122" >Kosofe</option>
+                                            
+                                                <option class="option_41 select_option" value="205" >Majidun- Ogolonto</option>
+                                            
+                                                <option class="option_41 select_option" value="309" >Jumofak</option>
+                                            
+                                                <option class="option_41 select_option" value="199" >Owutu Agric</option>
+                                            
+                                                <option class="option_41 select_option" value="307" >Eyita</option>
+                                            
+                                                <option class="option_41 select_option" value="198" >Ebute</option>
+                                            
+                                                <option class="option_41 select_option" value="304" >Agric</option>
+                                            
+                                                <option class="option_41 select_option" value="306" >Akute Ajuwon</option>
+                                            
+                                                <option class="option_41 select_option" value="311" >Oke Oriya</option>
+                                            
+                                                <option class="option_41 select_option" value="202" >Ijede</option>
+                                            
+                                                <option class="option_41 select_option" value="168" >Ikorodu</option>
+                                            
+                                                <option class="option_41 select_option" value="203" >Odongunyan</option>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <option class="option_43 select_option" value="58" >Okota</option>
+                                            
+                                                <option class="option_43 select_option" value="141" >Ago palace</option>
+                                            
+                                                <option class="option_43 select_option" value="362" >Community road</option>
+                                            
+                                        
+                                            
+                                                <option class="option_44 select_option" value="16" >Gbagada</option>
+                                            
+                                                <option class="option_44 select_option" value="274" >pahse1</option>
+                                            
+                                                <option class="option_44 select_option" value="315" >Atunrase Medina</option>
+                                            
+                                                <option class="option_44 select_option" value="275" >phase 2</option>
+                                            
+                                                <option class="option_44 select_option" value="317" >Oworonshoki</option>
+                                            
+                                                <option class="option_44 select_option" value="64" >Ifako</option>
+                                            
+                                                <option class="option_44 select_option" value="316" >Millenuim/UPS</option>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <option class="option_46 select_option" value="58" >Okota</option>
+                                            
+                                        
+                                            
+                                                <option class="option_47 select_option" value="8" >Maryland</option>
+                                            
+                                                <option class="option_47 select_option" value="314" >Idi-Oroko</option>
+                                            
+                                                <option class="option_47 select_option" value="33" >Ilupeju</option>
+                                            
+                                                <option class="option_47 select_option" value="313" >Shonibare Estate</option>
+                                            
+                                                <option class="option_47 select_option" value="9" >Anthony Village</option>
+                                            
+                                                <option class="option_47 select_option" value="165" >Mende</option>
+                                            
+                                                <option class="option_47 select_option" value="160" >Obanikoro</option>
+                                            
+                                        
+                                            
+                                                <option class="option_48 select_option" value="180" >Awoyaya</option>
+                                            
+                                                <option class="option_48 select_option" value="363" >Bogije</option>
+                                            
+                                                <option class="option_48 select_option" value="178" >Abijo</option>
+                                            
+                                                <option class="option_48 select_option" value="177" >Majek</option>
+                                            
+                                                <option class="option_48 select_option" value="181" >Lakowe</option>
+                                            
+                                        
+                                            
+                                                <option class="option_49 select_option" value="114" >Dopemu</option>
+                                            
+                                                <option class="option_49 select_option" value="334" >Orinsunbare</option>
+                                            
+                                                <option class="option_49 select_option" value="172" >Ikotun</option>
+                                            
+                                                <option class="option_49 select_option" value="234" >Pipeline</option>
+                                            
+                                                <option class="option_49 select_option" value="197" >Akowonjo</option>
+                                            
+                                                <option class="option_49 select_option" value="333" >Shasha</option>
+                                            
+                                                <option class="option_49 select_option" value="332" >Idimu</option>
+                                            
+                                                <option class="option_49 select_option" value="196" >Egbeda</option>
+                                            
+                                        
+                                        </select>
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    
+
+<div class="form-group  clearfix">
+    <label class="control-label">Sub Area</label>
+    <input type="text"
+        name="address.subArea"
+        
+            value=""
+        
+        class="form-control"
+        
+            placeholder = "Sub Area"
+        >
+    
+</div>
+                                </div>
+                                <div class="col-md-6">
+                                    
+
+<div class="form-group  clearfix">
+    <label class="control-label">Street</label>
+    <input type="text"
+        name="address.street"
+        
+            value=""
+        
+        class="form-control"
+        
+            placeholder = "Street"
+        >
+    
+</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Property Use / Features</div>
+                            <div class="panel-body">
+                                
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <label class="control-label">Type of property</label>
+                                        <select name="type" class="form-control">
+                                            <option value="">--select--</option>
+                                            
+                                                <option value="14" >Statup Office</option>
+                                            
+                                                <option value="9" >Studio</option>
+                                            
+                                                <option value="2" >Coworking space</option>
+                                            
+                                                <option value="22" >Corporate Office</option>
+                                            
+                                                <option value="1" >Business Center</option>
+                                            
+                                        </select>
+                                        
+                                    </div>
+                                </div>
+                                <br class="clearfix clear"/>
+                                <div class="col-md-4">
+<div class="form-group ">
+    <label>Number of floors</label>
+    <select name="attribute.beds" class="form-control">
+        <option value="">--select--</option>
+        
+            <option value="10" >10</option>
+        
+            <option value="9" >9</option>
+        
+            <option value="8" >8</option>
+        
+            <option value="7" >7</option>
+        
+            <option value="6" >6</option>
+        
+            <option value="5" >5</option>
+        
+            <option value="4" >4</option>
+        
+            <option value="3" >3</option>
+        
+            <option value="2" >2</option>
+        
+            <option value="1" >1</option>
+        
+            <option value="0" selected = "selected">0</option>
+        
+    </select>
+</div>
+                                </div>
+                                <div class="col-md-4">
+                                
+
+
+<div class="form-group ">
+    <label>Number of rooms</label>
+    <select name="attribute.bathrooms" class="form-control">
+        <option value="">--select--</option>
+        
+            <option value="10" >10</option>
+        
+            <option value="9" >9</option>
+        
+            <option value="8" >8</option>
+        
+            <option value="7" >7</option>
+        
+            <option value="6" >6</option>
+        
+            <option value="5" >5</option>
+        
+            <option value="4" >4</option>
+        
+            <option value="3" >3</option>
+        
+            <option value="2" >2</option>
+        
+            <option value="1" >1</option>
+        
+            <option value="0" selected = "selected">0</option>
+        
+    </select>
+    
+</div>
+                                </div>
+                                <div class="col-md-4">
+                                
+
+
+<div class="form-group ">
+    <label>Number of desks</label>
+    <select name="attribute.toilets" class="form-control">
+        <option value="">--select--</option>
+        
+            <option value="10" >10</option>
+        
+            <option value="9" >9</option>
+        
+            <option value="8" >8</option>
+        
+            <option value="7" >7</option>
+        
+            <option value="6" >6</option>
+        
+            <option value="5" >5</option>
+        
+            <option value="4" >4</option>
+        
+            <option value="3" >3</option>
+        
+            <option value="2" >2</option>
+        
+            <option value="1" >1</option>
+        
+            <option value="0" selected = "selected">0</option>
+        
+    </select>
+    
+</div>
+                                </div>
+                                <br class="clearfix clear"/>
+                                <div class="col-md-4">
+                                
+
+<div class="form-group  clearfix">
+    <label class="control-label">Floor Space</label>
+    <input type="text"
+        name="attribute.sqm"
+        
+            value=""
+        
+        class="form-control"
+        
+            placeholder = " In Square meters"
+        >
+    
+</div>
+                                </div>
+                               
+                                
+                                <br class="clearfix clear"/>
+                               
+                                <br class="clearfix clear"/>
+                            </div>
+                        </div>
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                    Amenities 
+                                    </h4>
+                                </div>
+                                <div class='panel-body'>
+                                        <div class="col-md-12">
+                                            
+
+<div class="form-group ">
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[12]"
+        value="12"
+        >
+          <small class="chk">Air Conditioning</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[24]"
+        value="24"
+        >
+          <small class="chk">Shared Kitchen</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[47]"
+        value="47"
+        >
+          <small class="chk">Water Supply</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[34]"
+        value="34"
+        >
+          <small class="chk">Constant Power Supply</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[23]"
+        value="23"
+        >
+          <small class="chk">Elevator</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[3]"
+        value="3"
+        >
+          <small class="chk">Fence</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[4]"
+        value="4"
+        >
+          <small class="chk">Garage</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[35]"
+        value="35"
+        >
+          <small class="chk">Meeting Room</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[37]"
+        value="37"
+        >
+          <small class="chk">General Internet Supply</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[36]"
+        value="36"
+        >
+          <small class="chk">General Receptionist</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[39]"
+        value="39"
+        >
+          <small class="chk">General Security</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[22]"
+        value="22"
+        >
+          <small class="chk">Generator</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[19]"
+        value="19"
+        >
+          <small class="chk">Intercom</small>
+      </label>
+    
+     
+     
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[45]"
+        value="45"
+        >
+          <small class="chk">Lockers</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[48]"
+        value="48"
+        >
+          <small class="chk">LAN  wired</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[38]"
+        value="38"
+        >
+          <small class="chk">Office Cleaner</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[26]"
+        value="26"
+        >
+          <small class="chk">Parking Space</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[33]"
+        value="33"
+        >
+          <small class="chk">Partitioned Space</small>
+      </label>
+    
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[1]"
+        value="1"
+        >
+          <small class="chk">Security</small>
+      </label>
+    
+      <label class="col-md-4">
+      <input type="checkbox"
+        name="feat[9]"
+        value="9"
+        >
+          <small class="chk">Security doors</small>
+      </label>
+    
+    <span class="help-block"></span>
+</div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+         
+    <a href='post2.html' class='cont'>Save</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+ <footer>
+        © 2015 flexoffice.com 
+    </footer>
+   
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!-- CUSTOM SCRIPTS   -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

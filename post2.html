@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Flex Office</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                 FLEX OFFICE
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right scroll-me">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#home">Search Spaces</a></li>
+                    <li><a href="#services">List your space</a></li>
+                    <li><a href="#contact">Account</a></li>
+                </ul>
+            </div>
+
+        </div>
+ </div>
+<div id='home'>
+    <section class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>
+                        <a onclick="history.go(-1);" class="btn btn-default">Go Back</a>
+                        Property Form
+                        
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <form action="/post-property" class="form-horizontal" method="post" data-validate="parsley" enctype="multipart/form-data">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Opening hours
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-6">                               
+<div class="form-group ">
+<label class='lab'>Monday to Friday </label>
+<select name="attribute.beds" class="form-control">
+        <option value="">--select--</option>
+        
+            <option value="10" >10</option>
+        
+            <option value="9" >9</option>
+        
+            <option value="8" >8</option>
+        
+            <option value="7" >7</option>
+        
+            <option value="6" >6</option>
+        
+            <option value="5" >5</option>
+        
+            <option value="4" >4</option>
+        
+            <option value="3" >3</option>
+        
+            <option value="2" >2</option>
+        
+            <option value="1" >1</option>
+        
+            <option value="0" selected = "selected">0</option>
+        
+    </select>
+   <BR/>
+</div>
+<div class='col-md-6'>
+<label class='lab'>Sat</label><br/>
+<input type='checkbox' name='openday'>
+</div>
+<div class='col-md-6'>
+<label class='lab'>Sun</label><br/>
+<input type='checkbox' name='openday'>
+</div>
+    <span class="help-block"></span>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+ <footer>
+        © 2015 flexoffice.com 
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- REQUIRED SCRIPTS FILES -->
+    <!-- CORE JQUERY FILE -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- REQUIRED BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- BACKGROUND VIDEO PLUGIN  -->
+    <script src="assets/js/jquery.mb.YTPlayer.js"></script>
+    <!-- SCROLLING SCRIPTS PLUGIN  -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!-- CUSTOM SCRIPTS   -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
