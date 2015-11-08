@@ -23,7 +23,7 @@ section {
     NAVBAR STYLES
 ==================================*/
 .navbar-default {
-    background-color: rgb(35, 133, 161);
+    background-color: #78b417;
     border-color: transparent;
     color: #fff;
 }
@@ -106,6 +106,12 @@ color: white;
     margin-top: 10px;
 
 }
+.img-log{
+    height: 60px;
+    width: 80px;
+    margin: 0;
+
+}
 #services {
  background: url(../img/whyflexoffice.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
     padding: 0;
@@ -157,7 +163,32 @@ color: white;
     margin-bottom: 10px;
     
 }
-/*======================================
+
+#intro{
+    margin-top: 30px;
+    min-height: 600px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    color: #6D6E71;
+    padding: 20px;
+    }
+#intro  h3  {
+    color: black;
+}
+#intro div {
+    margin-bottom: 40px;
+}
+#amenities ul {
+    display: inline-table;
+}
+.table-mi {
+    border: hidden;
+    display: inline-table;
+}
+
+====================================
     PARALLAX LIKE / STATS SECTION STYLES
 =========================================*/
 
@@ -231,6 +262,8 @@ footer {
         color: #fff;
         text-decoration: none;
     }
+
+
 .postform {
 
     margin: 80px;
